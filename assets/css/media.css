@@ -1,0 +1,40 @@
+@media (max-width: 600px) { /* VISTA PARA TAMAÑO PEQUEÑO*/
+  [class*="col-"]{
+    width: 100%;
+  }
+
+  .start_bootstrap_title{
+    padding-left: 1em;
+    font-weight: 400;
+    float: left;
+    clear: both;
+  }
+
+  .bars_menu .short_menu{
+    display: inline-block;
+    float: right;
+    margin: 1em 2em;
+  }
+
+  ul{
+    display: none;
+  }
+
+  .wallpaper_text{
+    margin-top: 5em;
+  }
+
+  .col-6 .intro, .col-5 .intro{
+    display: block;
+  }
+
+  img{
+    display: block;
+    align-content: center;
+  }
+
+  .cards_pic .cards_box{
+    display: inline-block;
+    max-width: 80%;
+  }
+}

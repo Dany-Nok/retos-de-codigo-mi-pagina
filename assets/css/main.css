@@ -1,0 +1,135 @@
+/*COLORES A USAR:
+#343a40 (HEADER Y FOOTER)
+#f7f7f7 (GRIS CLARO, SECTOR BOTONES DE CARD)
+#007bff (CELESTE BOTONES)
+#cccccc (GRIS TARJETAS 400x300)
+*/
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+nav, footer{
+  background-color: #343a40;
+  color: white;
+}
+
+.start_bootstrap_title{ /* TITULO PAGINA WEB */
+  padding: 0.875em;
+  padding-left: 4.5em;
+  font-weight: 400;
+}
+
+ul{ /* MENU (HOME, ABOUT, SERVICES Y CONTACT) */
+  list-style: none;
+}
+
+li{
+  padding: 1.25em;
+  float: left;
+  padding-left: 5em;
+  margin-left: 0;
+}
+
+li a{
+  text-decoration: none;
+  color: gray;
+}
+
+.home{ /* TEXTO LINK HOME */
+  color: white;
+}
+
+.bars_menu .short_menu{ /* MENU HAMBURGUESA, QUE SOLO APARECE EN RESPONSIVE */
+  display: none;
+  color: gray;
+  padding: 0.625em;
+  margin: 0;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+.wallpaper{
+  background-image: url(../img/sm_win_wallpaper.jpg);
+  max-width: 100%;
+  height: 25em;
+}
+
+.wallpaper_text{
+  color: #343a40;
+  position: absolute;
+  margin-top: 9em;
+  text-align: center;
+}
+
+h1{
+  font-size: 3.75em;
+}
+
+.sailor, .contactame{
+  font-size: 2em;
+  padding: 1em 0;
+}
+
+.sub_title{
+  font-size: 2.25em;
+}
+
+.button_call, .button_find{
+  background-color: #007bff;
+  color: white;
+  padding: 3%;
+  border-radius: 7px;
+  border-style: none;
+}
+
+.button_call{
+  font-size: 1.25em;
+  padding: 1em;
+}
+
+.button_find{
+  font-size: 1.0625em;
+}
+
+.button_container{
+  background-color: #f7f7f7;
+  padding: 5% 3.5%;
+}
+
+.col-4 .boxes{
+  padding: 3em;
+}
+
+.cards_box{
+  width: 18.75em;
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 0;
+}
+
+.cards_pic{
+  width: 18.75em;
+  height: 12.5em;
+  object-fit: cover;
+}
+
+.card_title{
+  font-size: 1.25em;
+  margin: 1em;
+}
+
+.card_text{
+  margin: 1em;
+}
+
+p{
+  line-height: 1.5em;
+}
+
+footer{
+  padding: 2.5em;
+  text-align: center;
+}
