@@ -11,7 +11,7 @@
   font-family: 'Roboto', sans-serif;
 }
 
-nav, footer{
+nav, footer{ /* BARRA DE NAVEGACION Y FOOTER */
   background-color: #343a40;
   color: white;
 }
@@ -51,13 +51,13 @@ li a{
   border-radius: 5px;
 }
 
-.wallpaper{
+.wallpaper{ /* IMAGEN DE FONDO */
   background-image: url(../img/sm_win_wallpaper.jpg);
   max-width: 100%;
   height: 25em;
 }
 
-.wallpaper_text{
+.wallpaper_text{ /* "BLOQUE" DE TEXTO QUE VA SOBRE IMAGEN DE FONDO */
   color: #343a40;
   position: absolute;
   margin-top: 9em;
@@ -68,16 +68,19 @@ h1{
   font-size: 3.75em;
 }
 
-.sailor, .contactame{
-  font-size: 2em;
-  padding: 1em 0;
-}
-
 .sub_title{
   font-size: 2.25em;
 }
 
-.button_call, .button_find{
+.col-6.sailor, .col-6.contactame{ /* COLUMNAS SEGUNDA SECCION */
+  width: 40%;
+}
+
+.col-6.sailor{
+  margin-left: 5em;
+}
+
+.button_call, .button_find{ /* BOTONES */
   background-color: #007bff;
   color: white;
   padding: 3%;
@@ -94,24 +97,31 @@ h1{
   font-size: 1.0625em;
 }
 
-.button_container{
+.button_container{ /* CONTENEDORES BOTONES DE TARJETAS */
   background-color: #f7f7f7;
   padding: 5% 3.5%;
 }
 
-.col-4 .boxes{
-  padding: 3em;
+.intro{
+  margin: 0 1em;
+  width: 100%;
 }
 
-.cards_box{
+.soy, .contacto{
+  font-size: 2em;
+  padding: 1em 0;
+}
+
+.col-4.cards_box{ /* ATRIBUTOS PARA TARJETAS */
+  margin: 1.25em;
+  padding: 0;
   width: 18.75em;
   border: 1px solid gray;
   border-radius: 5px;
-  padding: 0;
 }
 
-.cards_pic{
-  width: 18.75em;
+.cards_pic{ /* IMAGENES DE TARJETAS */
+  width: 100%;
   height: 12.5em;
   object-fit: cover;
 }
@@ -125,11 +135,11 @@ h1{
   margin: 1em;
 }
 
-p{
+p{ /* ALTO DE LINEA PARA PARRAFOS */
   line-height: 1.5em;
 }
 
-footer{
+footer{ /* PIE DE PAGINA */
   padding: 2.5em;
   text-align: center;
 }

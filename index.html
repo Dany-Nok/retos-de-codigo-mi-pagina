@@ -11,126 +11,115 @@
     <link rel="stylesheet" href="assets/font-awesome-4.7.0/css/font-awesome.min.css">
   </head>
   <body>
-
-      <nav>
-        <div class="row">
-          <div class="col-6">
-            <h2 class="start_bootstrap_title">Start Bootstrap</h2>
+<!-- MENU NAVEGACION -->
+    <nav>
+      <div class="row">
+        <div class="col-6">
+          <h2 class="start_bootstrap_title">Start Bootstrap</h2>
+        </div>
+<!-- MENU HAMBURGUESA (SOLO APARECE EN VERSION RESPONSIVE) -->
+        <div class="col-6">
+          <div class="bars_menu">
+            <a href="#" class="short_menu"><i class="fa fa-bars fa-2x" aria-hidden="true"></i></a>
           </div>
-
-          <div class="col-6">
-            <div class="bars_menu">
-              <a href="#" class="short_menu"><i class="fa fa-bars fa-2x" aria-hidden="true"></i></a>
-            </div>
-            <ul class="menu">
-              <li><a href="#" class="home">Home</a></li>
-              <li><a href="#">About</a></li>
-              <li><a href="#">Services</a></li>
-              <li><a href="#">Contact</a></li>
-            </ul>
+<!-- MENU FULL (APARECE EN VENTANA DE NAVEGADOR, SOBRE MAX-WIDTH DE 600px) -->           
+          <ul class="menu">
+            <li><a href="#" class="home">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+<!-- PRIMERA SECCION, DONDE VA IMAGEN CENTRAL MAS TEXTOS DE TITULO -->
+    <section>
+      <div class="row">
+        <div class="col-12 wallpaper_text">
+          <h1>Este es un wallpaper chistoso,</h1>
+          <h2 class="sub_title">pero Sailor Moon no se ve completa... :(</h2>
+        </div>
+        <div class="col-12 wallpaper"></div>
+      </div>
+    </section>
+<!-- SEGUNDA SECCION, QUE TIENE 2 PARRAFOS CON SUS TITULOS -->
+    <section>
+      <div class="row intro">
+        <div class="col-6 sailor">
+          <h2 class="soy">Soy una Sailor Scout</h2>
+          <p class="text_soy">Que lucha por el amor y la justicia,<br>
+            Soy Sailor Moon...y te castigaré en el nombre<br>
+            de la Luna!</p>
+          <br>
+          <p class="text_soy">Destellos mil de la constelación, cuento a uno y me pregunto<br>
+          por el destino de mi amor,<br>
+          Bello romance, creo en ti. Sé que el milagro se dará,<br>
+          Es el milagro del amor!</p>
+          <br>
+          <button type="button" class="button_call">Transformación! >></button>
+        </div>
+        <div class="col-6 contactame">
+          <h2 class="contacto">Contáctame :)</h2>
+          <p class="text_soy"><strong>Start Bootstrap</strong><br>
+          Pasaje Milenio de Plata 1234
+          Monte Luna, en la Luna</p>
+          <br>
+          <p class="text_soy"><i class="fa fa-mobile" aria-hidden="true"></i> (123) 456-7890<br>
+          <i class="fa fa-envelope-o" aria-hidden="true"></i> zoila-sailor@moon-mail.com</p>
+        </div>
+      </div>
+    </section>
+<!-- TERCERA SECCION, CONTIENE LAS TARJETAS/CARDS E INFORMACION -->
+<!-- TARJETA 1 -->
+    <section>
+      <div class="row">
+        <div class="col-4 cards_box">
+          <img src="assets/img/sm_card_1.png" class="cards_pic">
+          <h3 class="card_title">Moon Prism...</h3>
+          <p class="card_text">Perdona si no puedo ser sincera,<br>
+          sólo en mis sueños te lo confieso.<br>
+          Mil pensamientos giran en mi mente,<br>
+          corto circuito me causarán.</p>
+          <hr>
+          <div class="button_container">
+            <button type="button" class="button_find">Find Out More!</button>
           </div>
         </div>
-      </nav>
-
-      <section>
-        <div class="row">
-          <div class="col-12 wallpaper_text">
-            <h1>Este es un wallpaper chistoso,</h1>
-            <h2 class="sub_title">pero Sailor Moon no se ve completa... :(</h2>
-          </div>
-          <div class="col-12 wallpaper"></div>
-        </div>
-      </section>
-
-      <section>
-        <div class="row">
-          <div class="col-1"></div>
-          <div class="col-6 intro">
-            <h2 class="sailor">Soy una Sailor Scout</h2>
-            <p>Que lucha por el amor y la justicia,<br>
-              Soy Sailor Moon...y te castigaré en el nombre<br>
-              de la Luna!</p>
-            <br>
-            <p>Destellos mil de la constelación, cuento a uno y me pregunto<br>
-            por el destino de mi amor,<br>
-            Bello romance, creo en ti. Sé que el milagro se dará,<br>
-            Es el milagro del amor!</p>
-            <br>
-            <button type="button" class="button_call">Transformación! >></button>
-          </div>
-
-          <div class="col-5 intro">
-            <h2 class="contactame">Contáctame :)</h2>
-            <p><strong>Start Bootstrap</strong><br>
-            Pasaje Milenio de Plata 1234<br>
-            Monte Luna, en la Luna</p>
-            <br>
-            <p><i class="fa fa-mobile" aria-hidden="true"></i> (123) 456-7890<br>
-            <i class="fa fa-envelope-o" aria-hidden="true"></i> zoila-sailor@moon-mail.com</p>
-          </div>
-          <div class="col-1"></div>
-        </div>
-      </section>
-
-      <section>
-        <div class="row">
-
-          <div class="col-4 boxes">
-            <div class="cards_box">
-              <img src="assets/img/sm_card_1.png" class="cards_pic">
-              <h3 class="card_title">Moon Prism...</h3>
-              <p class="card_text">Perdona si no puedo ser sincera,<br>
-              sólo en mis sueños te lo confieso.<br>
-              Mil pensamientos giran en mi mente,<br>
-              corto circuito me causarán.</p>
-              <hr>
-              <div class="button_container">
-                <button type="button" class="button_find">Find Out More!</button>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-4 boxes">
-            <div class="cards_box">
-              <img src="assets/img/sm_card_2.jpg" class="cards_pic">
-              <h3 class="card_title">Power...</h3>
-              <p class="card_text">Ahora mismo quisiera verte,<br>
-              me hace llorar esa luz de Luna.<br>
-              La luz de luna no me deja hablarte,<br>
-              quiero saber qué debo hacer.</p>
-              <hr>
-              <div class="button_container">
-                <button type="button" class="button_find">Find Out More!</button>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-4 boxes">
-            <div class="cards_box">
-              <img src="assets/img/sm_card_3.jpg" class="cards_pic">
-              <h3 class="card_title">Make Up!</h3>
-              <p class="card_text">Un caleidoscopio es mi corazón,<br>
-              Luz de luna, guía mi amor.<br>
-              Destellos mil de la constelación,<br>
-              cuento a uno y me pregunto...</p>
-              <hr>
-              <div class="button_container">
-                <button type="button" class="button_find">Find Out More!</button>
-              </div>
-            </div>
-          </div>
-
-        </div>
-      </section>
-
-      <footer>
-        <div class="row">
-          <div class="col-12">
-            <p>Copyright <i class="fa fa-copyright" aria-hidden="true"></i> - Laboratoria 2017</p>
+<!-- TARJETA 2 -->
+        <div class="col-4 cards_box">
+          <img src="assets/img/sm_card_2.jpg" class="cards_pic">
+          <h3 class="card_title">Power...</h3>
+          <p class="card_text">Ahora mismo quisiera verte,<br>
+          me hace llorar esa luz de Luna.<br>
+          La luz de luna no me deja hablarte,<br>
+          quiero saber qué debo hacer.</p>
+          <hr>
+          <div class="button_container">
+            <button type="button" class="button_find">Find Out More!</button>
           </div>
         </div>
-      </footer>
-    </div>
-
+<!-- TARJETA 3 -->
+        <div class="col-4 cards_box">
+          <img src="assets/img/sm_card_3.jpg" class="cards_pic">
+          <h3 class="card_title">Make Up!</h3>
+          <p class="card_text">Un caleidoscopio es mi corazón,<br>
+          Luz de luna, guía mi amor.<br>
+          Destellos mil de la constelación,<br>
+          cuento a uno y me pregunto...</p>
+          <hr>
+          <div class="button_container">
+            <button type="button" class="button_find">Find Out More!</button>
+          </div>
+        </div>
+      </div>
+    </section>
+<!-- PIE DE PAGINA -->
+    <footer>
+      <div class="row">
+        <div class="col-12">
+          <p>Copyright <i class="fa fa-copyright" aria-hidden="true"></i> - Laboratoria 2017</p>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
